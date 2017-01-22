@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.95"
+        android:paddingBottom="10dp"
+        android:paddingLeft="26dp"
+        android:paddingTop="15dp"
+        android:text="分享到"
+        android:textColor="#999999"
+        android:textSize="15sp" />
+
+    <GridView
+        android:id="@+id/share_platform_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.95"
+        android:horizontalSpacing="1px"
+        android:numColumns="4"
+        android:paddingBottom="15dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1px" />
+
+    <View
+        android:id="@+id/share_platform_divider"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:background="#e8e8e7" />
+
+    <Button
+        android:id="@+id/share_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="取消"
+        android:background="@drawable/white_gray_selector"
+        android:textColor="#191919" />
+
+</LinearLayout>
